@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="banner" id="banner">
+            <div class="banner-content">
+                <h1>Python Full Stack Developer</h1>
+                
+                <button id="bannerButton">Explore</button>
+            </div>
+            <div class="banner-image" id="bannerImage">
+                <img src="img/1.jpg" alt="Banner Image" />
+            </div>
+        </div>
+    </header>
+
+
+    <svg class="arrows">
+        <path class="a1" d="M0 0 L30 32 L60 0"></path>
+        <path class="a2" d="M0 20 L30 52 L60 20"></path>
+        <path class="a3" d="M0 40 L30 72 L60 40"></path>
+      </svg>
+    <main class="about-main">
+      
+    <section class="about-python">
+        <div class="about-text">
+          <h2>Become a Python Full Stack Developer</h2>
+          <p>
+            Learn to build complete web applications from front-end to back-end using Python and modern frameworks. This course equips you with skills to create responsive websites, manage databases, and deploy applications.
+          </p>
+          <button class="read-more">Read More</button>
+        </div>
+        <div class="steps-grid">
+          <div class="step diamond">
+            
+            <p>Master Python Basics</p>
+          </div>
+          <div class="step diamond">
+            
+            <p>Learn Front-End Development</p>
+          </div>
+          <div class="step diamond">
+           
+            <p>Build Back-End Applications</p>
+          </div>
+        </div>
+    
+      </section>
+    </main>
+
+
+    <!-- <div style="justify-content: center;">
+      <img src="img/ful.jpg" alt="" width="500px">
+    </div> -->
+
+  
+  <header>
+    <!-- <h1>Apply Now for Our Courses</h1>
+    <p>Fill out the form to apply for the course of your choice.</p> -->
+  </header>
+  <div class="formm-dis">
+  <div>
+    <img src="img/file (1).png" alt="" width="550px">
+  </div>
+  <main class="formm">
+    
+    
+    <form id="applyForm" action="/submit" method="POST">
+      <div class="form-group">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required placeholder="Enter your full name">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+      </div>
+
+      <div class="form-group">
+        <label for="course">Select Course:</label>
+        <select id="course" name="course" required>
+          <option value="python">Python Full Stack Development</option>
+          <option value="webdev">Web Development with HTML, CSS, JS</option>
+          <option value="datascience">Data Science and Machine Learning</option>
+          <option value="ai">Java Full Stack Development</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Why do you want to join this course?</label>
+        <textarea id="message" name="message" rows="4" required placeholder="Tell us about your interest in this course"></textarea>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" class="submit-btn">Submit Application</button>
+      </div>
+    </form>
+ 
+  </main>
+</div>
+  <script >
+document.getElementById("applyForm").addEventListener("submit", function(event) {
+  event.preventDefault(); 
+
+  alert("Thank you for applying! We will get back to you soon.");
+});
+
+  </script>
+
+
+<main style="padding-top: 140px;" >
+  <div class="curved-background">
+        <div class="container">
+            <h1 style="padding-bottom: 50px;color: #4CAF50;"> Key Features of a Python Full-Stack Developer</h1>
+            <div class="feature-box">
+                <div class="fe"
+                style="margin-top: 90px;
+                ">
+              <div class="feature">
+                <img src="img/backend.png" alt="Back-End Development">
+                <h2>Back-End Development</h2>
+                <p>Proficient in server-side technologies like Python, Django, Flask, and FastAPI for building scalable and efficient back-end services.</p>
+              </div></div>
+              <div class="fe"
+              style="margin-bottom: 350px
+              ">
+              <div class="feature">
+                <img src="img/ux.png" alt="Front-End Skills">
+                <h2>Front-End Skills</h2>
+                <p>Experienced with HTML, CSS, JavaScript, and modern front-end 
+                    frameworks like React.js and Angular for building dynamic interfaces.</p>
+              </div></div>
+              <div class="feature-box">
+                <div class="fe"
+                style="margin-top: 90px;
+                ">
+              <div class="feature">
+                <img src="img/data-management.png" alt="Database Management">
+                <h2>Database Management</h2>
+                <p>Expert in working with both SQL (PostgreSQL, MySQL) and NoSQL (MongoDB) databases for data storage and retrieval.</p>
+              </div></div>
+              <div class="fe"
+              style="margin-bottom: 350px
+              ">
+              <div class="feature">
+                <img src="img/supervised.png" alt="Version Control">
+                <h2>Version Control</h2>
+                <p>Skilled in using Git and GitHub for source code management, version control, and collaboration in team environments.</p>
+              </div></div>
+            </div>
+          </div> 
+        <!-- <h1>Curved Background Animation</h1> -->
+    </div>
+  </main>
+   
+  
+  <main class="skil-sec">
+    <section class="skills-section">
+      <h2>Top Skills Every Python Full Stack Developer Must Learn</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <span class="number">01</span>
+          <h3>Core Python Skills</h3>
+          <p>Master Python basics, data types, OOP, and advanced features like decorators and generators.</p>
+        </div>
+        <div class="skill-card">
+          <span class="number">02</span>
+          <h3>Front-End Development Skills</h3>
+          <p>Develop responsive web UIs using HTML, CSS, JavaScript, and front-end frameworks like React.js.</p>
+        </div>
+        <div class="skill-card">
+          <span class="number">03</span>
+          <h3>Back-End Development Skills</h3>
+          <p>Build scalable server-side applications with Django, Flask, REST APIs, and integration with databases.</p>
+        </div>
+        <div class="skill-card">
+          <span class="number">04</span>
+          <h3>Additional Technical Skills</h3>
+          <p>Learn Docker, Git, cloud services like AWS, and deployment tools for full-stack development.</p>
+        </div>
+        <div class="skill-card">
+          <span class="number">05</span>
+          <h3>Soft Skills</h3>
+          <p>Strengthen problem-solving, teamwork, communication, and adaptability for collaborative environments.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+</body>
+</html>
